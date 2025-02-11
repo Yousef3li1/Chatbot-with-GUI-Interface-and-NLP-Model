@@ -37,9 +37,9 @@ This project implements a **Chatbot** using Natural Language Processing (NLP) to
 
 ## 🧠 Training the Model
 
--To train the chatbot, the script train_chatbot.py processes the intents from the intents.json file and creates a model using Keras. The model architecture consists of the following layers:
+- To train the chatbot, the script train_chatbot.py processes the intents from the intents.json file and creates a model using Keras. The model architecture consists of the following layers:
 
-Input Layer: Accepts a bag of words input (representing the user's sentence).
+-Input Layer: Accepts a bag of words input (representing the user's sentence).
 Hidden Layers: Two dense layers with ReLU activation.
 Output Layer: A softmax layer to predict the most likely intent.
 Training Process:
@@ -54,7 +54,7 @@ Output layer with softmax activation (number of classes)
 After training, the model is saved as chatbot_model.h5.
 ---
 ## 💬 Chatbot Interaction
-The chatgui.py file is responsible for providing a GUI interface where users can chat with the chatbot. The GUI has the following components:
+- The chatgui.py file is responsible for providing a GUI interface where users can chat with the chatbot. The GUI has the following components:
 
 Chat Log: Displays the conversation between the user and the bot.
 Entry Box: Allows users to type messages.
@@ -65,12 +65,12 @@ Click the Send button to submit the message.
 The chatbot will process the input and display a response in the Chat Log.
 ---
 ##⚠️ Notes
-Model Accuracy: The chatbot's responses are based on the training data in intents.json. You can improve the accuracy of the bot by adding more patterns and intents.
+-Model Accuracy: The chatbot's responses are based on the training data in intents.json. You can improve the accuracy of the bot by adding more patterns and intents.
 Customization: To add new functionality, you can update the intents.json file with new intents and patterns.
 Dependencies: Make sure all necessary libraries are installed before running the scripts.
 ---
 ##📢 Contributions
-We welcome contributions! Whether you want to:
+-We welcome contributions! Whether you want to:
 
 Improve the chatbot's responses.
 Add more intents.
