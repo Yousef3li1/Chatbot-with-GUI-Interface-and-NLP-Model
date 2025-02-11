@@ -39,41 +39,41 @@ This project implements a **Chatbot** using Natural Language Processing (NLP) to
 
 - To train the chatbot, the script train_chatbot.py processes the intents from the intents.json file and creates a model using Keras. The model architecture consists of the following layers:
 
--Input Layer: Accepts a bag of words input (representing the user's sentence).
-Hidden Layers: Two dense layers with ReLU activation.
-Output Layer: A softmax layer to predict the most likely intent.
-Training Process:
-Tokenize the input patterns.
-Lemmatize each word and create a bag of words (BOW).
-Train the model using the Keras Sequential API with the following architecture:
-Dense layer with 128 neurons
-Dropout layer (0.5)
-Dense layer with 64 neurons
-Dropout layer (0.5)
-Output layer with softmax activation (number of classes)
-After training, the model is saved as chatbot_model.h5.
+- Input Layer: Accepts a bag of words input (representing the user's sentence).
+- Hidden Layers: Two dense layers with ReLU activation.
+- Output Layer: A softmax layer to predict the most likely intent.
+- Training Process:
+- Tokenize the input patterns.
+- Lemmatize each word and create a bag of words (BOW).
+- Train the model using the Keras Sequential API with the following architecture:
+- Dense layer with 128 neurons
+- Dropout layer (0.5)
+- Dense layer with 64 neurons
+- Dropout layer (0.5)
+- Output layer with softmax activation (number of classes)
+- After training, the model is saved as chatbot_model.h5.
 ---
 ## 💬 Chatbot Interaction
 - The chatgui.py file is responsible for providing a GUI interface where users can chat with the chatbot. The GUI has the following components:
 
-Chat Log: Displays the conversation between the user and the bot.
-Entry Box: Allows users to type messages.
-Send Button: Sends the user's input and displays the bot's response.
-How to Chat:
-Type a message in the Entry Box.
-Click the Send button to submit the message.
-The chatbot will process the input and display a response in the Chat Log.
+- Chat Log: Displays the conversation between the user and the bot.
+- Entry Box: Allows users to type messages.
+- Send Button: Sends the user's input and displays the bot's response.
+- How to Chat:
+- Type a message in the Entry Box.
+- Click the Send button to submit the message.
+- The chatbot will process the input and display a response in the Chat Log.
 ---
 ##⚠️ Notes
 -Model Accuracy: The chatbot's responses are based on the training data in intents.json. You can improve the accuracy of the bot by adding more patterns and intents.
-Customization: To add new functionality, you can update the intents.json file with new intents and patterns.
-Dependencies: Make sure all necessary libraries are installed before running the scripts.
+- Customization: To add new functionality, you can update the intents.json file with new intents and patterns.
+- Dependencies: Make sure all necessary libraries are installed before running the scripts.
 ---
 ##📢 Contributions
 -We welcome contributions! Whether you want to:
 
-Improve the chatbot's responses.
-Add more intents.
-Enhance the GUI interface. Feel free to fork the project and submit a pull request.
+- Improve the chatbot's responses.
+- Add more intents.
+- Enhance the GUI interface. Feel free to fork the project and submit a pull request.
 
 ---
