@@ -590,29 +590,10 @@ pip install -r requirements.txt --force-reinstall
 pip install nltk scikit-learn tensorflow
 ```
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **NLTK Team** for comprehensive NLP tools
-- **Scikit-learn Contributors** for machine learning library
-- **TensorFlow Team** for deep learning framework
-- **Open Source Community** for continuous support and contributions
-
-## 📞 Support
-
-### Project Resources
-- 🐛 **Issues:** [GitHub Issues](https://github.com/yourusername/ai-chatbot/issues)
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/yourusername/ai-chatbot/discussions)
-- 📖 **Documentation:** [Project Wiki](https://github.com/yourusername/ai-chatbot/wiki)
-
-### External Resources
-- 📚 **NLTK Documentation:** [nltk.org](https://www.nltk.org)
-- 🤖 **Chatbot Tutorials:** [realpython.com/nltk-nlp-python](https://realpython.com/nltk-nlp-python)
-- 🧠 **ML Resources:** [scikit-learn.org](https://scikit-learn.org)
 
 ---
 
 🤖 **Built with intelligence and conversation in mind** | **AI Chatbot 2024**
+
